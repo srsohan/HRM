@@ -1,0 +1,125 @@
+<aside id="sidebar" class="sidebar">
+   <ul class="sidebar-nav" id="sidebar-nav">
+      <li class="nav-item"> <a class="nav-link " routerLink="/"> <i class="bi bi-grid"></i>
+            <span>Dashboard</span> </a></li>
+            
+            <li class="nav-item">
+               <a class="nav-link collapsed" data-bs-target="#departments-nav" data-bs-toggle="collapse" href="#"> <i
+                     class="bi bi-collection"></i><span>Departments</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+               <ul id="departments-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+                  <li> <a routerLink="/home/allDepartments"> <i class="bi bi-circle"></i><span>All Departments</span> </a></li>
+                  <li> <a routerLink="/home/addDepartment"> <i class="bi bi-circle"></i><span>Add Department</span> </a></li>
+               </ul>
+            </li>
+
+            <li class="nav-item">  <!-- bi-journal-text layout-text-window-reverse bi-bar-chart-->
+         <a class="nav-link collapsed" data-bs-target="#employee-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-people"></i><span>Employee</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="employee-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home/allEmployee"> <i class="bi bi-circle"></i><span>All Employee</span> </a></li>
+            <li> <a routerLink="/home/addEmployee"> <i class="bi bi-circle"></i><span>Add Employee</span> </a></li>
+         </ul>
+      </li>
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#projects-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-menu-button-wide"></i><span>Projects</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="projects-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home/allProjects"> <i class="bi bi-circle"></i><span>All Projects</span> </a></li>
+            <li> <a routerLink="/home/addProjects"> <i class="bi bi-circle"></i><span>Add Project</span> </a></li>    
+         </ul>
+      </li>
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#clients-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-person"></i><span>Clients</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="clients-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home/allClients"> <i class="bi bi-circle"></i><span>All Clients</span> </a></li>
+            <li> <a routerLink="/home/addClients"> <i class="bi bi-circle"></i><span>Add Clients</span> </a></li>
+         </ul>
+      </li>
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#attendance-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-fingerprint"></i><span>Attendance</span><i
+               class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="attendance-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home/todayAttendance"> <i class="bi bi-circle"></i><span>Today's Attendance</span> </a></li>
+            <li> <a routerLink="/home/attendanceSheet"> <i class="bi bi-circle"></i><span>Attendance Sheet</span> </a></li>
+         </ul>
+      </li>
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#leave-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-layout-text-window-reverse"></i><span>Leave Management</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="leave-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home/allLeaveRequest"> <i class="bi bi-circle"></i><span>All Leave Request</span> </a></li>
+            <li> <a routerLink="/home/leaveBalance"> <i class="bi bi-circle"></i><span>Leave Balance</span> </a></li>
+            <li> <a routerLink="/home/addLeaveRequest"> <i class="bi bi-circle"></i><span>Add New Leave Request</span> </a></li>
+            <li> <a routerLink="/home/leaveType"> <i class="bi bi-circle"></i><span>Leave Type</span> </a></li>
+         </ul>
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#holiday-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-command"></i><span>Holidays</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="holiday-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home/allHolidays"> <i class="bi bi-circle"></i><span>All Holidays</span> </a></li>
+            <li> <a routerLink="/home/addHolidays"> <i class="bi bi-circle"></i><span>Add Holidays</span> </a></li>
+         </ul>
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#accounts-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-journal-text"></i><span>Accounts</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="accounts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home/allPayments"> <i class="bi bi-circle"></i><span>All Payments</span> </a></li>
+            <li> <a routerLink="/home/addPayments"> <i class="bi bi-circle"></i><span>Add Payments</span> </a></li>
+            <li> <a routerLink="/home/invoice"> <i class="bi bi-circle"></i><span>Invoice </span> </a></li>
+         </ul>
+
+
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#payroll-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-clipboard"></i><span>Payroll</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="payroll-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home/employeeSalary"> <i class="bi bi-circle"></i><span>Employee Salary</span> </a></li>
+            <li> <a routerLink="/home/payslip"> <i class="bi bi-circle"></i><span>Payslip </span> </a></li>
+         </ul>
+
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#jobs-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-briefcase"></i><span>Jobs</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="jobs-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home/addJobs"> <i class="bi bi-circle"></i><span>Add Jobs</span> </a></li>
+            <li> <a routerLink="/home/requirements"> <i class="bi bi-circle"></i><span>Requirements </span> </a></li>
+            <li> <a routerLink="/home/candidates"> <i class="bi bi-circle"></i><span>Candidates </span> </a></li>
+         </ul>
+  
+      <li class="nav-item">
+         <a class="nav-link collapsed" data-bs-target="#report-nav" data-bs-toggle="collapse" href="#"> <i
+               class="bi bi-bar-chart"></i><span>Reports</span><i class="bi bi-chevron-down ms-auto"></i> </a>
+         <ul id="report-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+            <li> <a routerLink="/home"> <i class="bi bi-circle"></i><span> Expences</span> </a></li>
+            <li> <a routerLink="/home"> <i class="bi bi-circle"></i><span> Leaves</span> </a></li>
+         </ul>
+
+
+      </li>
+      <li class="nav-heading">Tools</li>
+      <li class="nav-item"> <a class="nav-link collapsed" routerLink="/calender"> <i class="bi bi-calendar"></i>
+         <span>Calender</span> </a></li>
+         <li class="nav-item"> <a class="nav-link collapsed" routerLink="/tasks"> <i class="bi bi-check2-circle"></i>
+            <span>Tasks</span> </a></li>
+      <li class="nav-item"> <a class="nav-link collapsed" routerLink="/user-profile"> <i class="bi bi-person"></i>
+            <span>Profile</span> </a></li>
+      <li class="nav-item"> <a class="nav-link collapsed" routerLink="/pages-contact"> <i class="bi bi-envelope"></i>
+            <span>Contact</span> </a></li>
+      <!-- <li class="nav-item"> <a class="nav-link collapsed" routerLink="/pages-register"> <i class="bi bi-card-list"></i>
+            <span>Register</span> </a></li> -->
+      <li class="nav-item"> <a class="nav-link collapsed" routerLink="/login"> <i
+               class="bi bi-box-arrow-right"></i> <span>Logout</span> </a></li>
+      <!-- <li class="nav-item"> <a class="nav-link collapsed" routerLink="/pages-error404"> <i
+               class="bi bi-dash-circle"></i> <span>Error 404</span> </a></li> -->
+    
+   </ul>
+</aside>
